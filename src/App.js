@@ -1,11 +1,21 @@
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Google Clone Ready to Go</h1>
+    <div className="app">
+      <Router>
+        <Switch>
+          <Route path="/search">
+            <h1>This is Search Page</h1>
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
