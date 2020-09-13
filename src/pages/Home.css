@@ -6,7 +6,7 @@
 .home__header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 10px 30px;
   align-items: center;
 }
 
@@ -19,8 +19,6 @@
 
 .home__header a:hover {
   text-decoration: underline;
-}
-.home__headerLeft {
 }
 
 .home__headerRight {
@@ -37,7 +35,7 @@
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10%;
+  margin-top: 7%;
   flex-direction: column;
 }
 
