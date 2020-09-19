@@ -2,9 +2,14 @@
 
 Google Clone Using ReactJs
 
+Fully Functional Google Clone Using React, React Context API, Material-Ui, HTML && CSS. Used Real time search Result appear on screen using Google custom Search API.
+
 ## Built With
 
 - ReactJs
+- React Context API
+- React Router
+- Google Custome Search API
 - HTML
 - CSS
 - Material-Ui
@@ -34,6 +39,9 @@ To install some of the require dependency in your local machine do the following
 
 **Run Test**
 `yarn start`
+
+**Deployment**
+We are going to use Google Firebase to deploy out App (to know how to depoly website on firebase [clik here](https://firebase.google.com/docs/hosting))
 
 ## Author
 
