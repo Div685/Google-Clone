@@ -22,25 +22,26 @@ Fully Functional Google Clone Using React, React Context API, Material-Ui, HTML 
 
 To get a local copy up and running in your local computer follow these simple steps.
 
-**Prerequisites**
+### **Prerequisites**
 you will need to install nodejs in you local machine in order to run this project.
 
 - install nodeJs
 - insatll yarn (We are going to use yarn to install some of the required dependency)
 
-**Setup**
+### **Setup**
+
 To Setup some of the requirements follow the steps:
 
-**Install**
+### **Install**
 To install some of the require dependency in your local machine do the following steps:
 
 - clone the repository
 - in your terminal type `yarn install` if you have not installed yarn [click Here](https://classic.yarnpkg.com/en/docs/getting-started)
 
-**Run Test**
+### **Run Test**
 `yarn start`
 
-**Deployment**
+### **Deployment**
 We are going to use Google Firebase to deploy out App (to know how to depoly website on firebase [clik here](https://firebase.google.com/docs/hosting))
 
 ## Author
