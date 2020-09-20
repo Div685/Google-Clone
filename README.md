@@ -55,7 +55,7 @@ We are going to use Google Firebase to deploy out App (to know how to depoly web
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Div685/youtube-homepage/issues).
+Feel free to check the [issues page](https://github.com/Div685/Google-Clone/issues).
 
 ## Show your support
 
