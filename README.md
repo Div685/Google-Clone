@@ -50,7 +50,7 @@ We are going to use Google Firebase to deploy out App (to know how to depoly web
 
 - GitHub: [@Div685](https://github.com/Div685)
 - Twitter: [@div_685](https://twitter.com/div_685)
-- LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
+- LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-daxa-patel/)
 
 ## :handshake: Contributing
 
