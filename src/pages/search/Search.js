@@ -5,7 +5,7 @@ import MicIcon from "@material-ui/icons/Mic";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
-function Search() {
+function Search({ hideButtons = false }) {
   const [input, setInput] = useState("");
   const history = useHistory();
 
