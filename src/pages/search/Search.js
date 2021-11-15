@@ -23,12 +23,21 @@ function Search({ hideButtons = false }) {
         <MicIcon />
       </div>
 
-      <div className="search__buttons">
-        <Button type="submit" onClick={search} variant="outlined">
-          Google Search
-        </Button>
-        <Button variant="outlined">I'm Feeling Lucky</Button>
-      </div>
+      {!hideButtons ? (
+        <div className="search__buttons">
+          <Button type="submit" onClick={search} variant="outlined">
+            Google Search
+          </Button>
+          <Button variant="outlined">I'm Feeling Lucky</Button>
+        </div>
+      ) : (
+        <div className="search__buttons">
+          <Button type="submit" onClick={search} variant="outlined">
+            Google Search
+          </Button>
+          <Button variant="outlined">I'm Feeling Lucky</Button>
+        </div>
+      )}
     </form>
   );
 }
