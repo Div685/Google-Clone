@@ -3,6 +3,7 @@ import { useStateValue } from '../../StateProvider';
 import useGoogleSearch from '../../useGoogleSearch';
 import './SearchPage.css';
 import Response from '../../response';
+import { Link } from 'react-router-dom';
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
@@ -16,7 +17,10 @@ function SearchPage() {
   return (
     <div className="searchPage">
       <div className="searchPage__header">
-        <h1>{term}</h1>
+        <Link to="/" >
+          <img 
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google_logo"/>
+        </Link>
       </div>
       <div className="searchPage__results">
 
