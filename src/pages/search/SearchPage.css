@@ -14,3 +14,10 @@
   height: 50px;
   margin-right: 50px;
 }
+
+.searchPage__headerBody > .search > .search__input {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
