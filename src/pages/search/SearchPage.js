@@ -5,7 +5,7 @@ import '../search/SearchPage.css';
 import Response from '../../response';
 import { Link } from 'react-router-dom';
 import Search from './Search';
-import SearchIcon from ''
+import SearchIcon from '@material-ui/icons/Search';
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
@@ -36,23 +36,23 @@ function SearchPage() {
             </div>
             <div className="searchPage__option">
               <DescriptionIcon />
-              <Link to="/all">News</Link>
+              <Link to="/news">News</Link>
             </div>
             <div className="searchPage__option">
               <ImageIcon />
-              <Link to="/all">Images</Link>
+              <Link to="/images">Images</Link>
             </div>
             <div className="searchPage__option">
               <LocalOfferIcon />
-              <Link to="/all">shopping</Link>
+              <Link to="/shopping">shopping</Link>
             </div>
             <div className="searchPage__option">
               <RoomIcon />
-              <Link to="/all">maps</Link>
+              <Link to="/maps">maps</Link>
             </div>
             <div className="searchPage__option">
               <MoreVertIcon />
-              <Link to="/all">more</Link>
+              <Link to="/more">more</Link>
             </div>
           </div>
 
