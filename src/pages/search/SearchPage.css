@@ -1,3 +1,9 @@
+.searchPage__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
 .searchPage__logo {
   object-fit: contain;
   height: 50px;
