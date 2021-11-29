@@ -44,7 +44,7 @@ function Search({ hideButtons = false }) {
           <Button className="search__buttonsHidden" type="submit" onClick={search} variant="outlined">
             Google Search
           </Button>
-          <Button variant="outlined">I'm Feeling Lucky</Button>
+          <Button className="search__buttonsHidden" variant="outlined">I'm Feeling Lucky</Button>
         </div>
       )}
     </form>

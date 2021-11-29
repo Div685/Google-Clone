@@ -1,9 +1,10 @@
 import React from 'react';
 import { useStateValue } from '../../StateProvider';
 import useGoogleSearch from '../../useGoogleSearch';
-import './SearchPage.css';
+import '../search/SearchPage.css';
 import Response from '../../response';
 import { Link } from 'react-router-dom';
+import Search from './Search';
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
@@ -22,8 +23,8 @@ function SearchPage() {
             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google_logo"/>
         </Link>
       </div>
-      <div className="searchPage__results">
-
+      <div className="searchPage__headerBody">
+        <Search hideButtons />
       </div>
     </div>
   )
