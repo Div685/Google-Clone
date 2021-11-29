@@ -38,6 +38,10 @@ function SearchPage() {
               <DescriptionIcon />
               <Link to="/all">News</Link>
             </div>
+            <div className="searchPage__option">
+              <ImageIcon />
+              <Link to="/all">Images</Link>
+            </div>
           </div>
 
           <div className="searchPage__optionsRight">
