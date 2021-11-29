@@ -46,6 +46,10 @@ function SearchPage() {
               <LocalOfferIcon />
               <Link to="/all">shopping</Link>
             </div>
+            <div className="searchPage__option">
+              <RoomIcon />
+              <Link to="/all">maps</Link>
+            </div>
           </div>
 
           <div className="searchPage__optionsRight">
