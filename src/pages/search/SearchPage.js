@@ -50,6 +50,10 @@ function SearchPage() {
               <RoomIcon />
               <Link to="/all">maps</Link>
             </div>
+            <div className="searchPage__option">
+              <MoreVertIcon />
+              <Link to="/all">more</Link>
+            </div>
           </div>
 
           <div className="searchPage__optionsRight">
