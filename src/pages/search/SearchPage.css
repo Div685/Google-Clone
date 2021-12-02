@@ -21,3 +21,9 @@
   margin: unset;
   max-width: unset;
 }
+
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
