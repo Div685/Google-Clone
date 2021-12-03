@@ -42,3 +42,13 @@
   align-items: center;
   margin-right: 20px;
 }
+
+.searchPage__options a,
+.searchPage__optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage__option a {
+  margin-left: 5px;
+}
