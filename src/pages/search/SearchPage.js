@@ -15,9 +15,9 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
   
-  // const { data } = useGoogleSearch(term);
+  const { data } = useGoogleSearch(term);
 
-  const data = Response;
+  // const data = Response;
 
   console.log(data);
 
@@ -74,7 +74,7 @@ function SearchPage() {
 
       </div>
 
-      {true && (
+      {term && (
         <div className="searchPage__results">
           <p className="searchPage__resultCount">
             About {
@@ -85,6 +85,11 @@ function SearchPage() {
           {data?.items.map(item => (
             <div className="searchPage__result">
               <a href={item.link}>
+                {item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src && (
+                  <img src={
+                    item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src
+                  } alt="img"/>
+                )}  
                 {item.displayLink}
               </a>
               <a className="searchPage__resultTitle" href={item.link}>
