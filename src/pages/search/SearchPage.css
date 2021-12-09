@@ -91,3 +91,7 @@
   width: 20px;
   margin-right: 10px;
 }
+
+.searchPage__resultLink {
+  text-decoration: none;
+}
