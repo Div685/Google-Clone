@@ -16,7 +16,7 @@ Fully Functional Google Clone Using React, React Context API, Material-Ui, HTML 
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://clone-c88ef.web.app/)
 
 ## Getting Started
 
@@ -38,8 +38,6 @@ To install some of the require dependency in your local machine do the following
 - clone the repository
 - in your terminal type `yarn install` if you have not installed yarn [click Here](https://classic.yarnpkg.com/en/docs/getting-started)
 
-### **Run Test**
-`yarn start`
 
 ### **Deployment**
 We are going to use Google Firebase to deploy out App (to know how to depoly website on firebase [clik here](https://firebase.google.com/docs/hosting))
