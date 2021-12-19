@@ -4,6 +4,8 @@ Google Clone Using ReactJs
 
 Fully Functional Google Clone Using React, React Context API, Material-Ui, HTML && CSS. Used Real time search Result appear on screen using Google custom Search API.
 
+![Screenshot](./screencapture.png)
+
 ## Built With
 
 - ReactJs
